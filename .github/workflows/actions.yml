@@ -33,4 +33,4 @@ jobs:
         uses: ssallmen/robotframework-docker-action@master
         with:
           robot_volume_dir: '.'
-          robot_tests_dir: 'root_suite'
+          robot_tests_dir: '/opt/robotframework/tests/root_suite'
