@@ -34,3 +34,8 @@ jobs:
         with:
           robot_volume_dir: '.'
           robot_tests_dir: '/opt/robotframework/tests/root_suite'
+      - name: Archive test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-report
+          path: reports/
