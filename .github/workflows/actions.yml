@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v2
       # Runs a single command using the runners shell
       - name: Robot Framework
-        uses: ssallmen/robotframework-docker-action@v1.0
+        uses: ssallmen/robotframework-docker-action@master
         with:
           robot_volume_dir: '.'
           robot_tests_dir: 'root_suite'
