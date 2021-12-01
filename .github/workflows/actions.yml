@@ -31,3 +31,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
+        with:
+          robot_tests_dir: 'root_suite'
