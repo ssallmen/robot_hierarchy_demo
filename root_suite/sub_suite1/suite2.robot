@@ -2,7 +2,7 @@
 Force Tags    test_suite_two
 Suite Setup    Log Test Hierarchy Suite Variables
 Suite Teardown    Log Test Hierarchy Suite Variables
-Resource    ../../hierarchy_resources/my_keywords.robot  # This is needed even if the same resource was loaded in both the root suite and sub suite inits
+Resource    ../../resources/my_keywords.robot  # This is needed even if the same resource was loaded in both the root suite and sub suite inits
 Test Setup    Log To Console    This will execute for every test in this file
 
 *** Variables ***
